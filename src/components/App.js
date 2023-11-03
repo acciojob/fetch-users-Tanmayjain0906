@@ -1,13 +1,15 @@
 
 import React from "react";
+import Table from "./table";
 import './../styles/App.css';
 
 const App = () => {
   return (
     <div>
-        {/* Do not remove the main div */}
+      <Table />
+      
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
