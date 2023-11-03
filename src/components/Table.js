@@ -30,7 +30,7 @@ const Table = () => {
                 </thead>
 
                 {
-                    tableData === null ? <p></p> : <tbody>
+                    tableData === null ? <th>No data found to display</th> : <tbody>
                         {
                             tableData.map((items) => (
                                 <tr>
@@ -44,10 +44,6 @@ const Table = () => {
                     </tbody>
                 }
             </table>
-
-            {
-                tableData === null ? <h2 id="nothing">No data found to display</h2> : <p></p>
-            }
         </div>
     )
 }
