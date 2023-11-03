@@ -13,7 +13,7 @@ const Table = () => {
     }
 
     return (
-        <div>
+        <div className="Users">
             <div className="upper">
                 <h2>Blue Whales</h2>
                 <button onClick={fetchData} id="fetch-btn">Get User List</button>
